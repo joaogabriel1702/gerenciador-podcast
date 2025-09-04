@@ -1,0 +1,29 @@
+{
+  "name": "gerenciador-podcast",
+  "version": "1.0.0",
+  "description": "O Podcast Manager é uma aplicação inspirada no estilo da Netflix, que permite centralizar diferentes episódios de podcasts separados por categoria. Este projeto visa facilitar o acesso e a organização de episódios de podcasts em formato de vídeo, proporcionando uma experiência de navegação intuitiva e agradável para os usuários.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx src/server.ts",
+    "start:watch": "tsx watch src/server.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run dist && noder/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogabriel1702/gerenciador-podcast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joaogabriel1702/gerenciador-podcast/issues"
+  },
+  "homepage": "https://github.com/joaogabriel1702/gerenciador-podcast#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
