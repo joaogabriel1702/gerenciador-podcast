@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "tsx --env-file=.env src/server.ts",
-    "start:watch": "tsx --env-file=.env watch src/server.ts",
+    "start:watch": "tsx --env-file=.env --watch src/server.ts",
     "dist": "tsup src",
     "start:dist": "npm run dist && --env-file=.env noder/server.js"
   },
