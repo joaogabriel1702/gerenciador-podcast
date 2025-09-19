@@ -1,6 +1,5 @@
 import fs from "fs"
 import path from "path"
-import { json } from "stream/consumers"
 import { PodcastModel } from "../models/podcast-model"
 
 const pathData = path.join(__dirname, "../repositories/podcasts.json")
